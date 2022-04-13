@@ -20,3 +20,6 @@ A installé la dernière version par défaut (a aussi installé npm)
 node --inspect-brk test.js:
 Debugger listening on ws://127.0.0.1:9229/de6b344c-11bc-443e-a4f5-bfe85bc236e1
 For help, see: https://nodejs.org/en/docs/inspector
+
+- npm init
+créer le package.json
