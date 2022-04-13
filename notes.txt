@@ -1,0 +1,22 @@
+- Node Version Manager:
+
+nvm installed with:  
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+-> cloned in /home/user/.nvm
+
+command -v nvm: 
+-> nvm 
+(in new terminal if does'nt work the first time)
+
+
+- Node.js
+
+nvm install node:
+Now using node v16.14.2 (npm v8.5.0)
+A installé la dernière version par défaut (a aussi installé npm)
+
+- Le debugger node.js est installé sur chrome:
+
+node --inspect-brk test.js:
+Debugger listening on ws://127.0.0.1:9229/de6b344c-11bc-443e-a4f5-bfe85bc236e1
+For help, see: https://nodejs.org/en/docs/inspector
