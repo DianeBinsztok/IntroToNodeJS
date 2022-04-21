@@ -1,7 +1,8 @@
-const http = require("http");
+const express = require("express");
 
-const server = http.createServer((req, res) => {
-  res.end("Voilà la réponse du serveur !");
-});
-
+const server = express();
 server.listen(process.env.PORT || 3000);
+
+server.get("/", (req, res) => {
+  res.send("Ceci est un test");
+});
